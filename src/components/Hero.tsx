@@ -162,7 +162,7 @@ export const Hero: React.FC = () => {
                   {/* Portrait Image with Graceful Fallback */}
                   {!imageError ? (
                     <img
-                      src="image/photo_2026-11-20_20-39-14.jpg"
+                      src="image/profile.jpg"
                       alt="Mustafo Toxirjanov"
                       onError={() => setImageError(true)}
                       className="w-full h-full object-cover object-top filter grayscale contrast-110 hover:grayscale-0 transition-all duration-700 ease-out"
